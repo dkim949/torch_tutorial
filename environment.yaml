@@ -1,5 +1,4 @@
-# conda env create -f environment.yaml
-name: py38
+name: tutorial-py38
 channels:
   - conda-forge  #defaults
 dependencies:
@@ -10,6 +9,7 @@ dependencies:
   - scikit-learn
   - scipy
   - pyyaml
+  - jupyter
   - matplotlib
   - pip:
     - joblib
