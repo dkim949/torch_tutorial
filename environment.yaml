@@ -1,4 +1,4 @@
-name: tutorial-py38
+name: torch-tutorial
 channels:
   - conda-forge  #defaults
 dependencies:
